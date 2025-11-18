@@ -25,9 +25,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-
-                        <!-- Dropdown Menu -->
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#benefits">Rooms</a></li>
+                        <!-- Dropdown Menu 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="destinationDropdown" role="button">
                                 Destinations
@@ -36,11 +36,10 @@
                                 <li><a class="dropdown-item" href="#">Kolkata</a></li>
                                 <li><a class="dropdown-item" href="#">Kurseong</a></li>
                             </ul>
-                        </li>
-
-                        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </li>-->
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,14 +47,14 @@
     </header>
 
     <section class="hero" id="hero">
-        <div class="container">
+        <div class="container slider-box">
             <div class="row align-items-center">
-                <div class="col-md-4" id="hero-content">
+                <div class="col-lg-4 col-md-5 col-sm-12" id="hero-content">
                     <div class="hero-text">
                         <h1>Welcome to <span class="brand">Bodhibaari</span></h1>
                         <h3>A tranquil escape in the heart of nature.</h3>
                         <p>
-                            A tranquil escape in the heart of nature. Bodhibaari Guest House offers cozy rooms, warm
+                            Bodhibaari offers cozy rooms, warm
                             hospitality, and a peaceful atmosphere for every traveler.
                         </p>
                         <p class="subtext">
@@ -75,20 +74,44 @@
             <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/banner2.jpg" class="d-block w-100" alt="Luxury Room 1">
+                        <img src="images/banner1.jpg" class="d-block w-100" alt="Luxury Room 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/banner2.jpg" class="d-block w-100" alt="Luxury Room 2">
+                        <img src="images/banner1.jpg" class="d-block w-100" alt="Luxury Room 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/banner2.jpg" class="d-block w-100" alt="Luxury Room 3">
+                        <img src="images/banner1.jpg" class="d-block w-100" alt="Luxury Room 3">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="hero mobile-only" id="hero">
+        <div class="container slider-box">
+            <div class="row align-items-center">
+                <div class="col-sm-12" id="hero-content">
+                    <div class="hero-text">
+                        <h1>Welcome to <span class="brand">Bodhibaari</span></h1>
+                        <h3>A tranquil escape in the heart of nature.</h3>
+                        <p>
+                            Bodhibaari offers cozy rooms, warm
+                            hospitality, and a peaceful atmosphere for every traveler.
+                        </p>
+                        <p class="subtext">
+                            Whether you're seeking a weekend retreat or a cultural getaway, our homestay blends
+                            tradition with comfort.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#gallery" class="btn-theme">Explore Gallery</a>
+                        </div>
+                    </div>
 
-    <section id="benefits" class="feature-section bg-beige">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="feature-section">
         <div class="container">
             <div class="row g-0 justify-content-center">
 
@@ -150,70 +173,65 @@
 
     <section class="rooms-section">
         <div class="container">
-            <div class="sec-title">
-                <span class="sub-title">Our Luxury Rooms</span>
-                <h2>Comfortable Rooms & Suites</h2>
-            </div>
             <div class="row">
-                <!-- Room 1 -->
-                <div class="room-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <img src="images/room-1.jpg" alt="Double Room">
-                        </div>
-                        <div class="content-box">
-                            <h6 class="title"><a href="#">Double Room</a></h6>
-                            <span class="price">₹2500 / NIGHT</span>
-                        </div>
-                        <div class="box-caption">
-                            <a href="#" class="book-btn">Book Now</a>
-                            <ul class="bx-links">
-                                <li><a href="#"><i class="fa fa-wifi"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bed"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bath"></i></a></li>
-                            </ul>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="room-image">
+                        <img src="images/room.jpg" alt="Luxury Hotel Room">
                     </div>
                 </div>
 
-                <!-- Room 2 -->
-                <div class="room-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <img src="images/room-2.jpg" alt="Deluxe Room">
+                <div class="col-lg-6">
+                    <h2 class="section-heading">Deluxe Room</h2>
+
+
+
+                    <p class="room-description">
+                        Experience luxury and comfort in our Deluxe King Room. Featuring a spacious layout with elegant
+                        furnishings,
+                        a comfortable king-sized bed, and a private balcony with stunning city views. Perfect for both
+                        business
+                        travelers and couples seeking a memorable stay.
+                    </p>
+
+                    <h5 class="mb-3" style="color: var(--primary-color); font-weight: 600;">Room Amenities</h5>
+
+                    <div class="amenities-grid">
+                        <div class="amenity-item">
+                            <div class="amenity-icon"><i class="fas fa-wifi"></i></div>
+                            <span>Free WiFi</span>
                         </div>
-                        <div class="content-box">
-                            <h6 class="title"><a href="#">Deluxe Room</a></h6>
-                            <span class="price">₹3500 / NIGHT</span>
+                        <div class="amenity-item">
+                            <div class="amenity-icon"><i class="fas fa-snowflake"></i></div>
+                            <span>Air Conditioning</span>
                         </div>
-                        <div class="box-caption">
-                            <a href="#" class="book-btn">Book Now</a>
-                            <ul class="bx-links">
-                                <li><a href="#"><i class="fa fa-wifi"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bed"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bath"></i></a></li>
-                            </ul>
+                        <div class="amenity-item">
+                            <div class="amenity-icon"><i class="fas fa-tv"></i></div>
+                            <span>Smart TV</span>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon"><i class="fas fa-shower"></i></div>
+                            <span>Attached Bathroom</span>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon"><i class="fas fa-utensils"></i></div>
+                            <span>Mini Fridge</span>
+                        </div>
+                        <div class="amenity-item">
+                            <div class="amenity-icon"><i class="fas fa-concierge-bell"></i></div>
+                            <span>Room Service</span>
                         </div>
                     </div>
-                </div>
+                    <div class="room-features">
+                        <!-- ⭐ Added Check-In -->
+                        <div class="feature-item">
+                            <i class="fas fa-sign-in-alt feature-icon"></i>
+                            <span>Check-In: 12:00 PM</span>
+                        </div>
 
-                <!-- Room 3 -->
-                <div class="room-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <img src="images/room-3.jpg" alt="Family Room">
-                        </div>
-                        <div class="content-box">
-                            <h6 class="title"><a href="#">Family Room</a></h6>
-                            <span class="price">₹4500 / NIGHT</span>
-                        </div>
-                        <div class="box-caption">
-                            <a href="#" class="book-btn">Book Now</a>
-                            <ul class="bx-links">
-                                <li><a href="#"><i class="fa fa-wifi"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bed"></i></a></li>
-                                <li><a href="#"><i class="fa fa-bath"></i></a></li>
-                            </ul>
+                        <!-- ⭐ Added Check-Out -->
+                        <div class="feature-item">
+                            <i class="fas fa-sign-out-alt feature-icon"></i>
+                            <span>Check-Out: 11:00 AM</span>
                         </div>
                     </div>
                 </div>
@@ -259,7 +277,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial-text">"The bamboo toothbrushes are amazing! They work just as well as plastic
+                        <p class="testimonial-text">"The bamboo toothbrushes are amazing! They work just as well as
+                            plastic
                             ones but without the guilt. Shipping was fast and packaging was plastic-free."</p>
                         <div class="testimonial-author">
                             <img src="./images/35.jpg" class="testimonial-avatar" alt="Customer">
@@ -295,25 +314,60 @@
         </div>
     </section>
 
+    <section id="gallery" class="gallery-section py-5">
+        <div class="container">
+            <div class="sec-title text-center mb-5">
+                <span class="sub-title">Our Gallery</span>
+                <h2>Beautiful Moments Captured</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Gallery Item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/pic_1.jpeg" class="img-fluid gallery-img" alt="Gallery Image"
+                        data-bs-toggle="modal" data-bs-target="#galleryModal">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/pic_2.jpg" class="img-fluid gallery-img" alt="Gallery Image" data-bs-toggle="modal"
+                        data-bs-target="#galleryModal">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/pic_3.jpg" class="img-fluid gallery-img" alt="Gallery Image" data-bs-toggle="modal"
+                        data-bs-target="#galleryModal">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="images/pic_4.jpg" class="img-fluid gallery-img" alt="Gallery Image" data-bs-toggle="modal"
+                        data-bs-target="#galleryModal">
+                </div>
+
+                <!-- Add as many as needed -->
+            </div>
+        </div>
+    </section>
+
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="sec-title text-center">
                 <span class="sub-title">Contact Us</span>
-                <h2>Visit Our Locations</h2>
-                <p class="contact-subtitle">Experience tranquility at both our beautiful locations</p>
+                <h2>Get in Touch</h2>
+                <p class="contact-subtitle">We are available to assist you anytime</p>
             </div>
-            
+
             <div class="row g-5">
-                <!-- Kolkata Location -->
+
+                <!-- Left Side: Contact Information -->
                 <div class="col-lg-6">
                     <div class="location-card">
-                        <div class="location-header">
-                            <h3><i class="fas fa-city"></i> Kolkata</h3>
-                            <span class="location-badge">City Stay</span>
-                        </div>
+
                         <div class="location-content">
                             <div class="contact-info">
+
                                 <div class="contact-item">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <div>
@@ -321,6 +375,7 @@
                                         <p>123 Park Street, Kolkata<br>West Bengal - 700016</p>
                                     </div>
                                 </div>
+
                                 <div class="contact-item">
                                     <i class="fas fa-phone"></i>
                                     <div>
@@ -328,92 +383,46 @@
                                         <p>+91 98765 43210</p>
                                     </div>
                                 </div>
+
                                 <div class="contact-item">
                                     <i class="fas fa-envelope"></i>
                                     <div>
                                         <strong>Email</strong>
-                                        <p>kolkata@bodhibaari.com</p>
+                                        <p>info@bodhibaari.com</p>
                                     </div>
                                 </div>
+
                                 <div class="contact-item">
                                     <i class="fas fa-clock"></i>
                                     <div>
-                                        <strong>Check-in/Check-out</strong>
-                                        <p>2:00 PM / 12:00 PM</p>
+                                        <strong>Check-in / Check-out</strong>
+                                        <p>12:00 PM / 11:00 AM</p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Kurseong Location -->
+                <!-- Right Side: Google Map -->
                 <div class="col-lg-6">
-                    <div class="location-card">
-                        <div class="location-header">
-                            <h3><i class="fas fa-mountain"></i> Kurseong</h3>
-                            <span class="location-badge">Hill Station</span>
-                        </div>
-                        <div class="location-content">
-                            <div class="contact-info">
-                                <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <div>
-                                        <strong>Address</strong>
-                                        <p>Tea Garden Road, Kurseong<br>Darjeeling District - 734203</p>
-                                    </div>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
-                                    <div>
-                                        <strong>Phone</strong>
-                                        <p>+91 98765 43211</p>
-                                    </div>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="fas fa-envelope"></i>
-                                    <div>
-                                        <strong>Email</strong>
-                                        <p>kurseong@bodhibaari.com</p>
-                                    </div>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="fas fa-clock"></i>
-                                    <div>
-                                        <strong>Check-in/Check-out</strong>
-                                        <p>1:00 PM / 11:00 AM</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <div class="map-container" style="height: 100%; min-height: 350px;">
 
-            <!-- Map Section -->
-            <div class="row mt-5">
-                <div class="col-12">
-                    <div class="map-container">
-                        <div class="map-placeholder">
-                            <i class="fas fa-map-marked-alt"></i>
-                            <h4>Interactive Map</h4>
-                            <p>Google Maps integration would show both locations here</p>
-                            <div class="map-buttons">
-                                <a href="#" class="btn-map">
-                                    <i class="fas fa-directions"></i>
-                                    Kolkata Directions
-                                </a>
-                                <a href="#" class="btn-map">
-                                    <i class="fas fa-directions"></i>
-                                    Kurseong Directions
-                                </a>
-                            </div>
-                        </div>
+                        <!-- Replace this iframe with your actual Google Map embed -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.09121345685!2d88.35191537532394!3d22.571203333956634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a98b7d45b1%3A0x42928de0b9230e1!2sPark%20Street!5e0!3m2!1sen!2sin!4v1700000000000"
+                            width="100%" height="100%" style="border:0; border-radius: 12px;" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="footer">
@@ -479,6 +488,18 @@
             </div>
         </div>
     </footer>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark border-0">
+                <div class="modal-body p-0">
+                    <img id="popupImage" src="" class="img-fluid w-100 rounded" alt="Gallery Popup">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
