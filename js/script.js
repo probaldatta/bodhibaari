@@ -1,3 +1,15 @@
+window.addEventListener('load', function() {
+    setTimeout(() => {
+        const loader = document.getElementById('loader');
+        const mainContent = document.getElementById('mainContent');
+        if(loader && mainContent){
+            loader.style.display = 'none';
+            mainContent.style.display = 'block';
+        }
+    }, 700); // 1000ms = 1 second
+});
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const dropdowns = document.querySelectorAll('.navbar .dropdown-toggle');
 
@@ -110,3 +122,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+function openGallery(src) {
+    document.getElementById("popupImage").src = src;
+    new bootstrap.Modal(document.getElementById("galleryModal")).show();
+}
+
+
